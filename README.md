@@ -117,11 +117,6 @@ From 11:22:33:44:55:66 -> seq=2 text=hello #2
 | Compile error on callback signature | Update the esp32 board package, or check the installed core version in Boards Manager |
 | Sender shows `FAIL` | Make sure the receiver is powered and within range, and that ESP-NOW initialised on both boards |
 
-## Ideas for Extension
-
-- Send sensor data (temperature, potentiometer, etc.) instead of a counter
-- Use the receiver's MAC address for unicast delivery with real acknowledgements
-- Enable encryption with a shared key
 - Make it two-way so both boards send and receive
 
 ## License
